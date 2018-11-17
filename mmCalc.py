@@ -117,7 +117,7 @@ class mmCalc(wx.App):
     
     
     def gamma2rl(self, gamma):
-        return(-20*math.log10(gamma))
+        return(20*math.log10(gamma))
 
     def rl2gamma(self, rl):
         return(math.pow(10.0,(rl/20.0)))
